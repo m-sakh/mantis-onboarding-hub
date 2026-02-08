@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checklist — Mantis Onboarding Hub</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <a class="brand__link" href="index.html">
+          <span class="brand__mark">M</span><span class="brand__name">Mantis Onboarding Hub</span>
+        </a>
+      </div>
+      <nav class="nav">
+        <a class="nav__link" href="start.html">Start</a>
+        <a class="nav__link nav__link--active" href="checklist.html">Checklist</a>
+        <a class="nav__link" href="tools.html">Tools</a>
+        <a class="nav__link" href="github.html">GitHub</a>
+        <a class="nav__link" href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>Checklist: Day -X → Day 9</h1>
+    <p class="lead">
+      Checkboxes persist locally in your browser (no accounts). If you change devices, you’ll need to re-check.
+    </p>
+
+    <section class="section">
+      <h2>Day -X: Intake</h2>
+      <div class="checklist" data-checklist="day-x">
+        <label class="check"><input type="checkbox"> Submit onboarding form (verticals/horizontals + vision)</label>
+        <label class="check"><input type="checkbox"> Confirm you can access the canonical doc + required links</label>
+      </div>
+      <div class="hint">Links: <a href="#" target="_blank" rel="noopener">Onboarding form (placeholder)</a></div>
+    </section>
+
+    <section class="section">
+      <h2>Day 1: First meeting</h2>
+      <div class="checklist" data-checklist="day-1">
+        <label class="check"><input type="checkbox"> Attend onboarding meeting</label>
+        <label class="check"><input type="checkbox"> Create a personal progress log (doc or notes)</label>
+        <label class="check"><input type="checkbox"> Identify your likely mentor/team path (tentative is fine)</label>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Days 1–7: Homeworks 0–12</h2>
+      <div class="checklist" data-checklist="homeworks">
+        <label class="check"><input type="checkbox"> Locate Homeworks 0–12 doc</label>
+        <label class="check"><input type="checkbox"> Complete HW 0–3</label>
+        <label class="check"><input type="checkbox"> Complete HW 4–7</label>
+        <label class="check"><input type="checkbox"> Complete HW 8–12</label>
+        <label class="check"><input type="checkbox"> Write 5–10 bullets: what confused you + what you resolved</label>
+      </div>
+      <div class="hint">Link: <a href="#" target="_blank" rel="noopener">Homeworks (placeholder)</a></div>
+    </section>
+
+    <section class="section">
+      <h2>Day 8: Proposal + milestones</h2>
+      <div class="checklist" data-checklist="day-8">
+        <label class="check"><input type="checkbox"> Draft a 12-week milestones proposal (dates + deliverables)</label>
+        <label class="check"><input type="checkbox"> Include a “ladder”: bugfix → improve → feature → paradigm</label>
+        <label class="check"><input type="checkbox"> Share proposal for feedback (mentor/lead)</label>
+      </div>
+      <div class="hint">Template: <a href="faq.html#proposal-template">proposal template →</a></div>
+    </section>
+
+    <section class="section">
+      <h2>Day 9: Start contributing</h2>
+      <div class="checklist" data-checklist="day-9">
+        <label class="check"><input type="checkbox"> Confirm mentor/buddy assignment</label>
+        <label class="check"><input type="checkbox"> Pick first GitHub task (small, well-scoped)</label>
+        <label class="check"><input type="checkbox"> Make first PR or draft PR (even if not merged)</label>
+        <label class="check"><input type="checkbox"> Post weekly update (what I did / blocked / next)</label>
+      </div>
+      <div class="hint">Where to find tasks: <a href="github.html">GitHub page →</a></div>
+    </section>
+
+    <section class="section">
+      <button class="btn btn--secondary" id="resetChecklist">Reset all checkboxes</button>
+    </section>
+
+    <footer class="footer">
+      <p class="small muted">If a step feels vague, that’s a doc gap worth capturing. Add it to your “confusions resolved” notes.</p>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
